@@ -1,0 +1,38 @@
+.parent{
+    position: relative;
+}
+
+.above-fold{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.bottom_card{
+    width: 100%;
+    text-align: center;
+    padding-bottom: 10px;
+    cursor: pointer;
+}
+.bottom_card:hover{
+    opacity: 0.8;
+}
+.bottom_card:active{
+    opacity: 0.6;
+}
+.extra{
+    cursor: pointer;
+    border: none;
+    
+    background-color: #fd8583;
+    border-radius: 20px;
+}
+.link-video{
+    padding: 2px 8px;
+    width: 100%;
+    text-decoration: none;
+    color: #fff;
+}
+.add_title{
+    color: #fc7575;
+}
